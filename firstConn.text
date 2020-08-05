@@ -1,1 +1,4 @@
 GitHub的第二次远程连接 edit by anoBranch
+
+用git fetch [远程库地址别名][远程分支名] 把远程库的文件下载到本地库，不合并
+用git checkout [远程库地址别名][远程分支名] 切换到下载的那个分支，查看文件，确认无误后，再git checkout master切换回来，再git merge合并分支
